@@ -5,7 +5,7 @@
 
 이 다이어그램에 표시된 구성 요소는 아래에서 두 섹션으로 각각 설명됩니다. 첫 번째 섹션 은 각 thread에 대해 생성되는 구성 요소를 다루고 두 번째 섹션 은 thread와 독립적으로 생성되는 구성 요소를 다룹니다.
 
-- threads
+- Threads
   - JVM System threads
   - Per thread
   - program Counter (PC)
@@ -33,7 +33,7 @@
   - Interned Strings (String Table)
 
 ## Thread
-- thread는 프로그램에서 실행되는 thread입니다.  
+- Thread는 프로그램에서 실행되는 thread입니다.  
 - JVM은 애플리케이션이 동시에 실행 중인 여러 thread를 가질 수 있도록 합니다.  
 - Hotspot JVM에는 Java thread와 기본 운영 체제 thread간에 직접 매핑이 있습니다.  
 - thread-local storage, allocation buffers, synchronization objects, stacks and the program counter와 같은 Java thread에 대한 모든 상태를 준비한 후 기본 thread가 생성됩니다.  
