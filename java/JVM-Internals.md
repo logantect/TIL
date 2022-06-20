@@ -514,5 +514,5 @@ Hotspot JVM에서 인턴된 문자열은 문자열 테이블에 보관되며, �
 문자열 리터럴은 컴파일러에 의해 자동으로 수용되고 클래스가 로드될 때 기호 테이블에 추가됩니다. 또한 String 클래스의 인스턴스는 String.intern()을 호출하여 명시적으로 인턴할 수 있습니다. String.intern()이 호출될 때 기호 테이블에 이미 문자열이 포함되어 있으면 이에 대한 참조가 반환되고, 그렇지 않은 경우 문자열이 문자열 테이블에 추가되고 해당 참조가 반환됩니다.
 
 
-### References
+### Reference
 - [JVM Internals](https://blog.jamesdbloom.com/JVMInternals.html)
