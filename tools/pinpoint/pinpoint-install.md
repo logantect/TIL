@@ -8,7 +8,7 @@
 ## Pinpoint 설치
 java 8 설치(Hbase 버전 지원으로 인해 java 8설치
 
-![Screen Shot 2022-01-10 at 3.16.01 PM.png](images/java-support-by-release-line.png)
+![images/java-support-by-release-line.png](images/java-support-by-release-line.png)
 
 ```bash
 # Java 8 설치
